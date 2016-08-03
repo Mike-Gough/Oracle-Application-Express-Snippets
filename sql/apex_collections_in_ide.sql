@@ -10,7 +10,7 @@ begin
   select workspace_id
     into l_workspace_id
     from apex_workspaces
-   where workspace = '&WORKSPACE_NAME';
+   where upper(workspace) = upper('&WORKSPACE_NAME');
    
    -- Set workspace id
    apex_util.set_security_group_id (l_workspace_id);
