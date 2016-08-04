@@ -7,7 +7,10 @@ Code snippets for use with Oracle Application Express (APEX).
 Is an animation effect which slowly slides up a region or page item. The effect looks much nicer than the built-in *Hide* dynamic action which immediately hides the component.
 
 #### Slide Down
-Is an animation effect which slowly slides Down a region or page item. The effect looks much nicer than the built-in *Show* dynamic action which immediately shows the component.
+Is an animation effect which slowly slides down a region or page item. The effect looks much nicer than the built-in *Show* dynamic action which immediately shows the component.
+
+#### Slide Toggle
+Is an animation effect which slowly slides up or down a region or page item. The effect looks much nicer than the built-in *show*/*hide* dynamic action which immediately shows or hides the component.
 
 ## SQL
 ### APEX collections in IDE
